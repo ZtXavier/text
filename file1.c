@@ -1,0 +1,6 @@
+float maxtwo(float x,float y)
+{
+    float z;
+    z=x>y?x:y;
+    return(z);
+}
