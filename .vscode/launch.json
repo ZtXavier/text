@@ -27,4 +27,22 @@
             "problemMatcher": "$gcc" // 此选项可以捕捉编译时终端里的报错信息；但因为有Lint，再开这个可能有双重报错
         },
     ]
+    "configurations": [
+        
+        {
+            "name": "Python: 当前文件",
+            // "name": "Python: Python",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "python": "C:\\Program Files (x86)\\sotf\\python\\python.exe",
+            
+            终端输出
+            // "console": "integratedTerminal"
+            调试控制台输出
+            "console": "integratedTerminal"
+            
+        }
+    ]
+
 }
